@@ -1,0 +1,58 @@
+.joining-forces > div > div {
+    align-items: center; /* center horizontally */
+    justify-content: center; /* center vertically */
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+}
+
+.joining-forces-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #E5E1DE;
+    height: 500px;
+}
+
+
+.joining-forces > div > div p:first-child{
+    color: #4B009B;
+    font-size: 1.375rem;
+    font-weight: 400;
+    font-family: suisseworks-medium, sans-serif;
+}
+
+.joining-forces > div > div h2{
+    color: #4B009B;
+    font-family: matter-semibold, sans-serif;
+    font-size: 3rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the h2 */
+}
+
+
+
+.joining-forces > div > div p:nth-of-type(2){
+    color: #4B009B;
+    font-family: matter-regular, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.joining-forces > div > div a.button {
+    color: #4B009B;
+    font-size: 19px;
+    line-height: 26px;
+    font-family: matter-medium;
+    border-radius: 100px;
+    border: 2px solid #4B009B;
+    background: transparent;
+    width: 200px;
+}
+
+
+.joining-forces > div > div a.button:hover{
+    color: white;
+    background: #89BAE5;
+    border: 2px solid #89BAE5;
+}

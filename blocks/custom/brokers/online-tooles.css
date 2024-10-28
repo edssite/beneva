@@ -1,0 +1,103 @@
+/* Section */
+
+.online-tools {
+    background-color: #f0f0ef;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0% !important;
+}
+
+/* Title */
+
+.online-tools-title {
+    align-items: center; /* center horizontally */
+    justify-content: center; /* center vertically */
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.online-tools-title > div > div p {
+    color: #4b009b;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: suisseworks-medium, sans-serif;
+}
+
+.online-tools-title > div > div h3 {
+    color: #4b009b;
+    font-family: matter-semibold, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0%;
+}
+
+/* Cards */
+.online-tools-cards-wrapper {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content if needed */
+  }
+  
+  .online-tools-cards {
+    display: flex;
+  }
+
+
+.online-tools-cards > div {
+    display: flex;
+}
+
+.online-tools-cards > div > div {
+    width: 470px;
+    height: 373px;
+    background-color: white;
+    margin: 15px;
+    padding: 36px;
+    border-radius: 10px;
+    position: relative;
+}
+.online-tools-cards > div > div p:nth-of-type(1) {
+    color: #4b009b;
+    text-transform: uppercase;
+    font-family: matter-medium, sans-serif;
+    font-size: 12px;
+}
+
+.online-tools-cards > div > div h3 {
+    color: #4b009b;
+    font-family: matter-semibold, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 36px;
+}
+
+.online-tools-cards > div > div p:nth-of-type(2) {
+    color: #4b009b;
+    font-family: matter-regular, sans-serif;
+    font-size: 22px;
+    width: 419px;
+}
+
+.online-tools-cards > div > div a.button {
+    color: #4b009b;
+    font-family: matter-medium, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+    position: absolute;
+    left: 10;
+    bottom: 0;
+}
+
+.online-tools-cards > div > div a.button::before {
+    color: #4b009b;
+    content: "→ "; /* ASCII arrow */
+    font-weight: 400; /* Match button text weight */
+}
+
+.online-tools-cards > div > div a.button:hover {
+    text-decoration: underline;
+}

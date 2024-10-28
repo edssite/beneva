@@ -1,0 +1,45 @@
+.partner {
+    background-color: #4B009B;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    grid-template-rows: auto auto; /* Two rows to accommodate title and accordion */
+    height: 1000px;
+    margin-top: 0% !important;
+}
+
+.partner-image-wrapper {
+    grid-column: 1; /* First column */
+    grid-row: 1 / span 2; /* Image spans both rows if desired, otherwise keep it on row 1 */
+}
+
+.partner-title-wrapper {
+    grid-column: 2; /* Second column */
+    grid-row: 1; /* Title in the first row */
+}
+
+.accordion-wrapper {
+    grid-column: 2; /* Second column */
+    grid-row: 2; /* Accordion in the second row */
+    width: 800px;
+}
+
+
+.partner-image > div > div > picture img {
+    width: 600px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.partner-title > div > div p {
+    color: white;
+    font-family: suisseworks-medium, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.partner-title > div > div h2 {
+    color: white;
+    font-family: matter-semibold, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
