@@ -1,3 +1,61 @@
 .get-in-touch {
     background-color: #88BAE5;
+    margin-top: 0% !important;
+}
+
+
+.get-in-touch-title > div > div h3{
+    color: #4B009B; 
+    font-family: matter-semibold, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    width: 500px;
+    padding-top: 100px;
+    margin-top: 0% !important;
+
+
+}
+
+
+
+.get-in-touch-title > div > div p{
+    color: #4B009B; 
+    font-size: 22px;
+    font-family: matter-regular;
+    width: 500px;
+    margin-bottom: 250px;
+
+}
+
+
+.get-in-touch-cards {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.get-in-touch-cards > div > div {
+    padding-right: 85px;
+
+}
+
+
+.get-in-touch-cards > div > div p:nth-of-type(1){
+    color: #4B009B;
+    font-size: 12px;
+    font-family: matter-medium;
+    text-transform:uppercase;
+}
+
+.get-in-touch-cards > div > div p:nth-of-type(2){
+    color: #4B009B;
+    font-family: matter-semibold;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.get-in-touch-cards > div > div p:nth-of-type(3){
+    color: #4B009B;
+    font-family: matter-regular, sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
 }
