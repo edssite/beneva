@@ -10,6 +10,15 @@
  * governing permissions and limitations under the License.
  */
 
+ @import url('../blocks/custom/brokers/product-performance.css');
+ @import url('../blocks/custom/brokers/joining-forces.css');
+ @import url('../blocks/custom/brokers/marketing-material.css');
+ @import url('../blocks/custom/brokers/online-tooles.css');
+ @import url('../blocks/custom/brokers/advisor-centre.css');
+ @import url('../blocks/custom/brokers/partner.css');
+ @import url('../blocks/custom/brokers/stay-in-loop.css');
+ @import url('../blocks/custom/brokers/get-in-touch.css');
+
 :root {
   /* colors */
   --background-color: white;

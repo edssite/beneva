@@ -1,0 +1,90 @@
+.stay-in-loop {
+    background-color: #F0F0EF;
+    padding-top: 175px;
+    padding-bottom: 175px;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+}
+
+.stay-in-loop-title {
+    align-items: center; /* center horizontally */
+    justify-content: center; /* center vertically */
+    text-align: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+.stay-in-loop-title > div > div h3{
+    color: #4B009B;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: matter-semibold, sans-serif;
+}
+
+
+.stay-in-loop-cards {
+    display: flex;
+}
+
+.stay-in-loop-cards-wrapper {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content if needed */
+  }
+
+
+.stay-in-loop-cards > div > div > p > picture img{
+    width: 500px;
+    height: 400px;
+    border-radius: 3%;
+}
+
+.stay-in-loop-cards > div > div {
+    width: 545px;
+    height: 636px;
+    position: relative;
+}
+
+.stay-in-loop-cards > div > div p:nth-of-type(2) {
+    color: #4b009b;
+    font-size: 12px;
+    font-family: matter-medium, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #4b009b;
+    border-radius: 8px;
+    display: inline-block; /* Change this to inline or inline-block */
+    padding: 0px 5px; /* Optional: Add padding for better spacing */
+}
+
+.stay-in-loop-cards > div > div h3 {
+    color: #4b009b;
+    font-family: matter-semibold, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    width: 490px;
+}
+
+
+.stay-in-loop-cards > div > div a.button {
+    color: #4b009b;
+    font-family: matter-medium, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    padding-left: 0;
+    position: absolute;
+    left: 10;
+    bottom: 0;
+}
+
+.stay-in-loop-cards > div > div a.button::before {
+    color: #4b009b;
+    content: "→ "; /* ASCII arrow */
+    font-weight: 400; /* Match button text weight */
+}
+
+.stay-in-loop-cards > div > div a.button:hover {
+    text-decoration: underline;
+}

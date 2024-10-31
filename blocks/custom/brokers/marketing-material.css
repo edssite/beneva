@@ -1,0 +1,30 @@
+.marketing-material-container {
+    background-color: #E9E0F4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.marketing-material > div > div h2{
+    color: #4B009B;
+    font-family: matter-semibold;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.marketing-material > div > div a.button {
+    color: #4B009B;
+    font-size: 19px;
+    line-height: 26px;
+    font-family: matter-medium;
+    border-radius: 100px;
+    border: 2px solid #4B009B;
+    background: transparent;
+    width: 200px;
+}
+
+
+.marketing-material > div > div a.button:hover{
+    color: white;
+    background: #4B009B;
+}
