@@ -1,20 +1,118 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+    background-color: #4b009b;
+    font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+    margin: 0%;
+    max-width: 1200px;
+    padding: 40px 24px 24px;
 }
 
 footer .footer p {
-  margin: 0;
+    margin: 0;
 }
 
 @media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
-  }
+    footer .footer > div {
+        padding: 40px 32px 24px;
+    }
+}
+
+.footer > div > div > div > div > div {
+    display: flex;
+}
+
+.footer > div > div:nth-of-type(1) > div > div > div > div {
+  margin-left: 20%;
+}
+
+.footer > div > div:nth-of-type(2) > div > div > div  {
+  margin-top: 10%;
+  margin-left: 90%;
+}
+
+
+
+/* First section */
+
+.footer > div > div > div > div > div:nth-of-type(1) > div h2 {
+    color: #b99bd9;
+    font-family: matter-medium, sans-serif;
+    font-size: 12px;
+}
+
+.footer
+    > div
+    > div
+    > div
+    > div
+    > div:nth-of-type(1)
+    > div:nth-of-type(1)
+    a.button {
+    color: white;
+    font-family: matter-semibold, sans-serif;
+    font-size: 28px;
+    border: none;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+}
+
+.footer
+    > div
+    > div
+    > div
+    > div
+    > div:nth-of-type(1)
+    > div:nth-of-type(2)
+    a.button,
+.footer
+    > div
+    > div
+    > div
+    > div
+    > div:nth-of-type(1)
+    > div:nth-of-type(3)
+    a.button {
+    color: white;
+    font-family: matter-regular, sans-serif;
+    font-size: 22px;
+    border: none;
+    background-color: transparent;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 0%;
+}
+
+.footer > div > div > div > div > div:nth-of-type(1) > div a.button:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Download section */
+
+.lower-section {
+  display: flex;
+}
+
+.logo > div > div > p:last-child {
+  color: #b99bd9;
+  font-family: matter-medium, sans-serif;
+  font-size: 12px;
+}
+
+.logo > div > div > p > picture img {
+  width: 200px ;
+  height: 70px;
+
+
+}
+
+.download > div:last-child > div > picture img {
+  width: 130px;
+  height: 40px;
 }
