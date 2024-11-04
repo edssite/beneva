@@ -1,0 +1,119 @@
+.online-cards {
+    display: flex;
+    width: 1800px;
+    height: 1000px;
+    background-color: #F0F0EF;
+}
+
+.online-cards-wrapper {
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.online-cards-container {
+    margin: 0% !important;
+}
+
+.online-cards > div {
+    padding-left: 5%;
+    width: 700px;
+
+}
+
+.online-cards > div:nth-of-type(1) > div {
+    background-color: #89BAE5;
+    
+}
+
+.online-cards > div:nth-of-type(2) > div {
+    background-color: #4b009b;
+}
+
+.online-cards > div:nth-of-type(1) > div:last-child {
+    height: 300px;
+    padding: 5%;
+}
+
+.online-cards > div:nth-of-type(2) > div:last-child {
+    height: 300px;
+    padding: 5%;
+}
+
+.online-cards > div {
+    height: 600px;
+}
+
+.online-cards > div:nth-of-type(1) > div h2 {
+    color: #4b009b;
+    font-size: 28px;
+    font-family: matter-semibold;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.online-cards > div:nth-of-type(1) > div p {
+    color: #4b009b;
+    font-size: 22px;
+    font-family: matter-regular;
+    font-weight: 500;
+}
+
+.online-cards > div:nth-of-type(1) > div a.button {
+    color: #4b009b;
+    font-family: matter-medium, sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    padding-left: 0;
+    border: none;
+    font-weight: 400;
+}
+
+.online-cards > div:nth-of-type(1) > div a.button::before {
+    color: #4b009b;
+    content: "→ "; /* ASCII arrow */
+    font-weight: 400; /* Match button text weight */
+}
+
+.online-cards > div:nth-of-type(1) > div a.button:hover {
+    text-decoration: underline;
+}
+
+
+.online-cards > div:nth-of-type(2) > div h2 {
+    color: white;
+    font-size: 28px;
+    font-family: matter-semibold;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.online-cards > div:nth-of-type(2) > div p {
+    color: white;
+    font-size: 22px;
+    font-family: matter-regular;
+    font-weight: 500;
+}
+
+.online-cards > div:nth-of-type(2) > div a.button {
+    color: white;
+    font-family: matter-medium, sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    padding-left: 0;
+    border: none;
+    font-weight: 400;
+}
+
+.online-cards > div:nth-of-type(2) > div a.button::before {
+    color: white;
+    content: "→ "; /* ASCII arrow */
+    font-weight: 400; /* Match button text weight */
+}
+
+.online-cards > div:nth-of-type(2) > div a.button:hover {
+    text-decoration: underline;
+}
+
+
+
+
