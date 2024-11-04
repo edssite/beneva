@@ -1,0 +1,74 @@
+.insurance-cards > div {
+    display: flex;
+}
+
+.insurance-cards-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content if needed */
+    background-color: #F0F0EF;
+    margin: 0% !important;
+}
+
+.insurance-cards-wrapper {
+    display: flex;
+
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content if needed */
+}
+
+.insurance-cards > div > div {
+    margin: 30px;
+   height: 700px;
+   width: 500px;
+   background-color: white;
+   border-radius: 5%;
+}
+
+.insurance-cards-wrapper {
+    margin: 0% !important;
+}
+
+.insurance-cards > div > div > p > picture img {
+
+    border-radius: 5%;
+}
+
+.insurance-cards > div > div p:first-child {
+    color: #4B009B;
+    font-family: matter-medium;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.insurance-cards > div > div h3 {
+    color: #4B009B;
+    font-size: 28px;
+    font-family: matter-semibold;
+    margin-left: 5%;
+}
+
+
+
+
+
+.insurance-cards > div:nth-of-type(1) > div:nth-of-type(1):hover,
+.insurance-cards > div:nth-of-type(2) > div:nth-of-type(1):hover,
+.insurance-cards > div:nth-of-type(2) > div:nth-of-type(3):hover {
+    background-color: #f0c169;
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.insurance-cards > div:nth-of-type(1) > div:nth-of-type(2):hover,
+.insurance-cards > div:nth-of-type(1) > div:nth-of-type(3):hover  {
+    background-color: #5B9BD0;
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+
+.insurance-cards > div:nth-of-type(2) > div:nth-of-type(2):hover{
+    background-color: #FF9B8D;
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+

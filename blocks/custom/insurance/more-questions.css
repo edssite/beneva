@@ -1,0 +1,14 @@
+.more-questions {
+    background-color: #4b009b;
+    display: flex;
+    height: 700px;
+    margin: 0% !important;
+}
+
+
+.more-questions-title > div > div h2 {
+    color: white;
+    width: 400px;
+    font-family: matter-semibold;
+    font-size: 48px;
+}

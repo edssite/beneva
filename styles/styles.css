@@ -18,6 +18,13 @@
  @import url('../blocks/custom/brokers/partner.css');
  @import url('../blocks/custom/brokers/stay-in-loop.css');
  @import url('../blocks/custom/brokers/get-in-touch.css');
+ @import url('../blocks/custom/insurance/insurance-title.css');
+ @import url('../blocks/custom/insurance/average-save.css');
+ @import url('../blocks/custom/insurance/insurance-coverage.css');
+ @import url('../blocks/custom/insurance/insurance-cards.css');
+ @import url('../blocks/custom/insurance/lucky-quote.css');
+ @import url('../blocks/custom/insurance/online-cards.css');
+ @import url('../blocks/custom/insurance/more-questions.css');
 
 :root {
   /* colors */
@@ -264,3 +271,4 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+

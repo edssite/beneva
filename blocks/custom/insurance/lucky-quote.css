@@ -1,0 +1,104 @@
+.lucky-quote {
+    position: relative; /* Establish a positioning context for absolute children */
+    width: 1800px;
+    height: 1000px;
+    background-color: #F0F0EF;
+    margin: 0% !important;
+
+  }
+  
+  .lucky-quote-image-wrapper{
+    position: absolute; /* Position both elements absolutely */
+    top: 0; /* Align both elements to the top of the parent */
+    left: 0; /* Align to the left */
+    right: 0; /* Extend to the right */
+
+  }
+
+  .lucky-quote-description-wrapper  {
+    position: absolute; /* Position both elements absolutely */
+    top: 30%; /* Align both elements to the top of the parent */
+    left: 60%;
+    right: 0; /* Extend to the right */
+  }
+  
+  .lucky-quote-image-wrapper {
+    z-index: 1; /* Send the image to the back */
+    margin-left: 5% !important;
+
+  }
+
+  .lucky-quote-image {
+    width: 1800px;
+    padding-top: 5%;
+  }
+  
+  .lucky-quote-description-wrapper {
+    z-index: 2; /* Bring the description to the front */
+}
+
+
+  .lucky-quote-image > div > div > picture img {
+    width: 1500px;
+    height: 800px;
+  }
+
+/* Discription styling */
+
+.lucky-quote-description > div:nth-of-type(1) p {
+    color: white;
+    font-size: 22px;
+    font-family: suisseworks-medium,sans-serif;
+    font-weight: 400;
+    
+}
+
+.lucky-quote-description > div:nth-of-type(2) h2 {
+    color: white;
+    font-size: 36px;
+    font-family: matter-semibold;
+    
+}
+
+.lucky-quote-description > div:nth-of-type(3) p {
+    color: white;
+    font-size: 22px;
+    font-family: matter-regular;
+    width: 500px;
+    
+}
+
+.lucky-quote-description > div:last-child a.button{
+    color: #4B009B;
+    background-color: white;
+    font-family: matter-medium;
+    font-size: 19px;
+}
+
+
+.lucky-quote-description > div:last-child a.button:hover{
+    color: white;
+    background-color: #4B009B;
+    font-family: matter-medium;
+    font-size: 19px;
+    transition: background-color 0.3s ease; /* Transition effect */
+
+}
+
+
+
+
+
+
+
+
+.lucky-quote-description > div:last-child {
+    display: flex;
+}
+
+.lucky-quote-description > div:last-child > div {
+    padding-right: 1%;
+}
+
+
+  
